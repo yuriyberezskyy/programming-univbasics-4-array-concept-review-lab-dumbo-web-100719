@@ -17,6 +17,7 @@ def find_max_value(array)
   while index < array.length do
     if(maxvalue < array[index])
       maxvalue = array[index]
+      return maxvalue
     end
     index+= 1
 end
