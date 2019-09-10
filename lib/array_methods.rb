@@ -2,12 +2,12 @@ def find_element_index(array, value_to_find)
     index = 0
     for index in 0..array.length do
         if(array[index] === value_to_find)
-                puts index
+                return index
         else
             index+=1
         end
     end
-    return index
+    
 end
 
 def find_max_value(array)
